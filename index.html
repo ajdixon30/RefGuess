@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div id="container">
+        <div id="banner">RefGuess</div>
+        <div id="categories">
+            <button id="MLB">MLB</button>
+            <button id="NBA">NBA</button>
+        </div>
+        <div id="quiz-list"></div>
+        <div id="answer-section">
+            <form id="answer-form">
+                <input type="text" id="answer-textbox" name="guess"/>
+                &nbsp;
+                <button type="submit" id="submit-button">Submit</button>
+            </form>
+        </div>
+        <div id="table-section">
+            <table id="answers-table">
+                <thead id="table-header"></thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+        <div id="image-carousel"></div>
+        <div id="modal">
+            <span id="modal-content">
+                <div id="modal-container">
+                    <p id="modal-text"></p>
+                    <button id="modal-button"></button>
+                </div>
+            </span>
+        </div>
+    </div>
+</body>
+<script src="./scripts/nba.js" ></script>
+<script src="./scripts/mlb.js" ></script>
+<script src="./scripts/player.js"></script>
+<script src="./scripts/main.js" ></script>
+</html>

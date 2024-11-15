@@ -1,0 +1,329 @@
+body{
+    font-family: sans-serif;
+}
+
+.ready{
+    border: solid 1px black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-section{
+    margin-top: 15px;
+}
+
+#container{
+    text-align: center;
+    padding: 3.5%;
+    max-height: 100vh;
+    max-width: 90vw;
+}
+
+#banner, #categories, #quiz-name, #answer-section, #player-status{
+    margin-bottom: 15px;
+}
+
+#banner{
+  font-size: 2.4rem;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.list_item{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.name {
+    width: 150px;
+}
+
+.year{
+    padding: 5px 10px;
+}
+
+.heading{
+    text-decoration: underline;
+}
+
+/* Image Carousel */
+#image-carousel{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding-top: 10px;
+}
+
+.guessPlayer{
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    --parent-height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+.current{
+    display: block;
+}
+
+/* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    /* position: relative; */
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+    border: 2px solid;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    padding: 2px;
+  }
+
+  .prev{
+    /* right: 2%; */
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    /* left: 2%; */
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.4);
+  } 
+
+  .prevSpan, .nextSpan{
+    padding: 0px 5px;
+  }
+
+  .giveUp{
+    background: none;
+    border: 2px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0px 0px 0px 5px;
+  }
+
+  .giveUp:hover{
+    animation: border-vanish 0.5s ease forwards;
+  }
+
+  .giveUp:not(:hover){
+    animation: border-reveal 0.5s ease forwards;
+  }
+
+  .slideCounter{
+    margin-top: 15px;
+    max-width: 100%;
+  }
+
+  .slideNumber{
+    background: none;
+    border: 2px solid;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin: 0 5px;
+    transition: 0.5s ease;
+  }
+
+  .slideNumber:hover{
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .correctNumber{
+    background: rgba(0, 128, 0, 0.6);
+    color: white;
+  }
+
+  .incorrectNumber{
+    background: rgba(255, 0, 0, 0.6);
+    color: white;
+  }
+
+  .playerName{
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    left: 30%;
+    top: calc(var(--parent-height) - 50%);
+    width: 40%;
+  }
+  
+  img{
+    height: 100%;
+  }
+
+  .blurred{
+    filter:blur(8px);
+  }
+
+  /* .slideCount{
+    position: relative;
+    top: 2%;
+    right: 3%;
+  } */
+
+  .correct, .incorrect{
+    animation: reveal 1s forwards;
+    opacity: 0.6;
+  }
+
+  .correct{
+    color: green;
+}
+
+  .incorrect{
+    color: red;
+  }
+
+  .score{
+    color:rgb(100, 100, 100);
+    padding: 0px 5px;
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+
+  /* #modal .hidden{
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    top:100%;
+  } */
+
+  #modal {
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px gray;
+    color: black;
+    opacity: 0%;
+    position: absolute;
+    height: 40vh;
+    width: 40vw;
+    top: 30vh;
+    left: 30vw;
+    z-index: -1;
+  }
+
+  #modal-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+  }
+
+  #modal-text{
+    font-size: 2.4em;
+  }
+
+  #modal-button{
+    background: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.5s ease;
+  }
+
+  #modal-button:hover{
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+
+  .show {
+    animation: show 1s forwards;
+  }
+
+  .hide{
+    animation: hide 1s forwards;
+  }
+
+  @keyframes reveal{
+    0% {
+        opacity: 0%;
+        translate: 0% 50%;
+    }
+
+    100%{
+        opacity: 100%;
+        translate: 0% 0%;
+    }
+  }
+
+  @keyframes border-vanish{
+    to {
+        background: red;
+        border: 2px solid white;
+        color: white;
+    }
+  }
+
+  @keyframes border-reveal{
+    from {
+        background: red;
+        border: 2px solid white;
+        color: white;
+    }
+    to {
+        background: none;
+        border: 2px solid;
+    }
+  }
+
+  @keyframes show{
+    0%{
+      opacity: 0%;
+      z-index: -1;
+    }
+    100%{
+      opacity: 100%;
+      z-index: 1;
+    }
+  }
+
+  @keyframes hide{
+    0%{
+      opacity: 100%;
+      z-index: 1;
+    }
+    100%{
+      opacity: 0%;
+      z-index: -1;
+    }
+  }
+
+  /* @keyframes show{
+    0%{
+      opacity: 0%;
+      top: 100vh;
+    }
+    100%{
+      opacity: 100%;
+      top: 30vh;
+    }
+  }
+  @keyframes hide {
+    0%{
+      opacity: 100%;
+      top: 30vh;
+    }
+    100%{
+      opacity: 0%;
+      top: 100vh;
+    }
+  } */
