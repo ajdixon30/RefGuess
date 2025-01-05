@@ -237,359 +237,494 @@ let MLBQuizzes = [
         answers: [
             {
                 name: "Aaron Harang",
-                img: "public/images/MLB/Pitchers/Aaron_Harang_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Aaron_Harang_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/aaron_harang_headshot.jpg",
+                hints: [
+                    "1999 - 6th round pick (San Diego State University)",
+                    "2006 Strikeouts, Wins, & Complete Games Leader",
+                    "#39 - Cincinnati Reds"
+                ]
             },
             {
                 name: "Aaron Hicks",
-                img: "public/images/MLB/Batters/Aaron_Hicks_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Aaron_Hicks_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/aaron_hicks_headshot.jpg",
+                hints: [
+                    "2008 - 14th overall pick (HS)",
+                    "#31 - New York Yankees",
+                    "A-Aron/Hicksie"
+                ]
             },
             {
                 name: "Adam Dunn",
-                img: "public/images/MLB/Batters/Adam_Dunn_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Adam_Dunn_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/adam_dunn_headshot.jpg",
+                hints: [
+                    "1998 - 2nd round pick (HS)",
+                    "Big Donkey",
+                    "44 - Cincinnati Reds",
+                ]
             },
             {
                 name: "Adrian Gonzalez",
-                img: "public/images/MLB/Batters/Adrian_Gonzalez_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Adrian_Gonzalez_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/adrian_gonzalez_headshot.jpg",
+                hints: [
+                    "2000 - 1st overall pick (HS)",
+                    "El Titan",
+                    "23 - San Diego Padres, Los Angeles Dodgers"
+                ]
             },
             {
                 name: "Al Leiter",
-                img: "public/images/MLB/Pitchers/Al_Leiter_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Al_Leiter_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/al_leiter_headshot.jpg",
+                hints: [
+                    "1984 2nd round pick (HS)",
+                    "Has a brother, nephew, and son in the MLB",
+                    "22 - New York Mets"
+                ]
             },
             {
                 name: "Andrelton Simmons",
-                img: "public/images/MLB/Batters/Andrelton_Simmons_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Andrelton_Simmons_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/andrelton_simmons_headshot.jpg",
+                hints: [
+                    "2010 2nd round pick (Western Oklahoma State College) - Atlanta Braves",
+                    "2 - Los Angeles Angels",
+                    "4x Gold Glove, Platinum Glove, Wilson Overall DPOY"
+                ]
             },
             {
                 name: "Armando Benitez",
-                img: "public/images/MLB/Pitchers/Armando_Benitez_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Armando_Benitez_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/armando_benitez_headshot.jpg",
+                hints: [
+
+                ]
             },
             {
                 name: "Asdrubal Cabrera",
-                img: "public/images/MLB/Batters/Asdrubal_Cabrera_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Asdrubal_Cabrera_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/asdrubal_cabrera_headshot.jpg",
+                hints: [
+                    "2019 World Series Champion",
+                    "#13 - Cleveland Indians",
+                    "'Droobs'"
+                ]
             },
             {
                 name: "Ben Sheets",
-                img: "public/images/MLB/Pitchers/Ben_Sheets_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Ben_Sheets_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/ben_sheets_headshot.jpg",
+                hints: [
+                    "1999 10th overall pick (Louisiana Monroe) - Milwaukee Brewers",
+                    "#15 - Milwaukee Brewers",
+                    ""
+                ]
             },
             {
                 name: "BJ Upton",
-                img: "public/images/MLB/Batters/BJ_Upton_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/BJ_Upton_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/bj_upton_headshot.jpg",
+                hints: [
+                    ""
+                ]
             },
             {
                 name: "Bobby Abreu",
-                img: "public/images/MLB/Batters/Bobby_Abreu_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Bobby_Abreu_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/bobby_abreu_headshot.jpg"
             },
             {
                 name: "Brad Lidge",
-                img: "public/images/MLB/Pitchers/Brad_Lidge_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Brad_Lidge_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/brad_lidge_headshot.jpg"
             },
             {
                 name: "Brandon Inge",
-                img: "public/images/MLB/Batters/Brandon_Inge_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Brandon_Inge_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/brandon_inge_headshot.jpg"
             },
             {
                 name: "Brandon Phillips",
-                img: "public/images/MLB/Batters/Brandon_Phillips_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Brandon_Phillips_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/brandon_phillips_headshot.jpg"
             },
             {
                 name: "Brian Dozier",
-                img: "public/images/MLB/Batters/Brian_Dozier_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Brian_Dozier_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/brian_dozier_headshot.jpg"
             },
             {
                 name: "Brian Giles",
-                img: "public/images/MLB/Batters/Brian_Giles_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Brian_Giles_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/brian_giles_headshot.jpg"
             },
             {
                 name: "Brian McCann",
-                img: "public/images/MLB/Batters/Brian_McCann_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Brian_McCann_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/brian_mccann_headshot.jpg"
             },
             {
                 name: "Bronson Arroyo",
-                img: "public/images/MLB/Pitchers/Bronson_Arroyo_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Bronson_Arroyo_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/bronson_arroyo_headshot.jpg"
             },
             {
                 name: "Carlos Zambrano",
-                img: "public/images/MLB/Pitchers/Carlos_Zambrano_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Carlos_Zambrano_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/carlos_zambrano_headshot.jpg"
             },
             {
                 name: "Chase Utley",
-                img: "public/images/MLB/Batters/Chase_Utley_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Chase_Utley_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/chase_utley_headshot.jpg"
             },
             {
                 name: "Chris Ianetta",
-                img: "public/images/MLB/Batters/Chris_Ianetta_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Chris_Ianetta_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/chris_ianetta_headshot.jpg"
             },
             {
                 name: "Curt Schilling",
-                img: "public/images/MLB/Pitchers/Curt_Schilling_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Curt_Schilling_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/curt_schilling_headshot.jpg"
             },
             {
                 name: "Daisuke Matsuzaka",
-                img: "public/images/MLB/Pitchers/Daisuke_Matsuzaka_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Daisuke_Matsuzaka_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/daisuke_matsuzaka_headshot.jpg"
             },
             {
                 name: "Dan Uggla",
-                img: "public/images/MLB/Batters/Dan_Uggla_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Dan_Uggla_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/dan_uggla_headshot.jpg"
             },
             {
                 name: "Dellin Betances",
-                img: "public/images/MLB/Pitchers/Dellin_Betances_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Dellin_Betances_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/dellin_betances_headshot.jpg"
             },
             {
                 name: "Edwin Encarnacion",
-                img: "public/images/MLB/Batters/Edwin_Encarnacion_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Edwin_Encarnacion_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/edwin_encarnacion_headshot.jpg"
             },
             {
                 name: "Evan Gattis",
-                img: "public/images/MLB/Batters/Evan_Gattis_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Evan_Gattis_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/evan_gattis_headshot.jpg"
             },
             {
                 name: "Fernando Rodney",
-                img: "public/images/MLB/Pitchers/Fernando_Rodney_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Fernando_Rodney_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/fernando_rodney_headshot.jpg"
             },
             {
                 name: "Francisco Rodriguez",
-                img: "public/images/MLB/Pitchers/Francisco_Rodriguez_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Francisco_Rodriguez_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/francisco_rodriguez_headshot.jpg"
             },
             {
                 name: "Grady Sizemore",
-                img: "public/images/MLB/Batters/Grady_Sizemore_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Grady_Sizemore_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/grady_sizemore_headshot.jpg"
             },
             {
                 name: "Howie Kendrick",
-                img: "public/images/MLB/Batters/Howie_Kendrick_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Howie_Kendrick_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/howie_kendrick_headshot.jpg"
             },
             {
                 name: "Jair Jurrjens",
-                img: "public/images/MLB/Pitchers/Jair_Jurrjens_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Jair_Jurrjens_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/jair_jurrjens_headshot.jpg"
             },
             {
                 name: "Jake Peavy",
-                img: "public/images/MLB/Pitchers/Jake_Peavy_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Jake_Peavy_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/jake_peavy_headshot.jpg"
             },
             {
                 name: "James Shields",
-                img: "public/images/MLB/Pitchers/James_Shields_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/James_Shields_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/james_shields_headshot.jpg"
             },
             {
                 name: "Jason Heyward",
-                img: "public/images/MLB/Batters/Jason_Heyward_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Jason_Heyward_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/jason_heyward_headshot.jpg"
             },
             {
                 name: "Jason Schmidt",
-                img: "public/images/MLB/Pitchers/Jason_Schmidt_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Jason_Schmidt_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/jason_schmidt_headshot.jpg"
             },
             {
                 name: "Jay Bruce",
-                img: "public/images/MLB/Batters/Jay_Bruce_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Jay_Bruce_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/jay_bruce_headshot.jpg"
             },
             {
                 name: "Jeremy Hellickson",
-                img: "public/images/MLB/Pitchers/Jeremy_Hellickson_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Jeremy_Hellickson_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/jeremy_hellickson_headshot.jpg"
             },
             {
                 name: "Jeurys Familia",
-                img: "public/images/MLB/Pitchers/Jeurys_Familia_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Jeurys_Familia_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/jeurys_familia_headshot.jpg"
             },
             {
                 name: "Jimmy Rollins",
-                img: "public/images/MLB/Batters/Jimmy_Rollins_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Jimmy_Rollins_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/jimmy_rollins_headshot.jpg"
             },
             {
                 name: "Joba Chamberlain",
-                img: "public/images/MLB/Pitchers/Joba_Chamberlain_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Joba_Chamberlain_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/joba_chamberlain_headshot.jpg"
             },
             {
                 name: "Joe Nathan",
-                img: "public/images/MLB/Pitchers/Joe_Nathan_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Joe_Nathan_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/joe_nathan_headshot.jpg"
             },
             {
                 name: "Joey Votto",
-                img: "public/images/MLB/Batters/Joey_Votto_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Joey_Votto_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/joey_votto_headshot.jpg"
             },
             {
                 name: "Jonathan Papelbon",
-                img: "public/images/MLB/Pitchers/Jonathan_Papelbon_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Jonathan_Papelbon_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/jonathan_papelbon_headshot.jpg"
             },
             {
                 name: "Josh Harrison",
-                img: "public/images/MLB/Batters/Josh_Harrison_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Josh_Harrison_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/josh_harrison_headshot.jpg"
             },
             {
                 name: "Julio Teheran",
-                img: "public/images/MLB/Pitchers/Julio_Teheran_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Julio_Teheran_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/julio_teheran_headshot.jpg"
             },
             {
                 name: "Justin Morneau",
-                img: "public/images/MLB/Batters/Justin_Morneau_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Justin_Morneau_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/justin_morneau_headshot.jpg"
             },
             {
                 name: "Justin Upton",
-                img: "public/images/MLB/Batters/Justin_Upton_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Justin_Upton_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/justin_upton_headshot.jpg"
             },
             {
                 name: "Kendrys Morales",
-                img: "public/images/MLB/Batters/Kendrys_Morales_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Kendrys_Morales_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/kendrys_morales_headshot.jpg"
             },
             {
                 name: "Kenny Lofton",
-                img: "public/images/MLB/Batters/Kenny_Lofton_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Kenny_Lofton_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/kenny_lofton_headshot.jpg"
             },
             {
                 name: "Kerry Wood",
-                img: "public/images/MLB/Pitchers/Kerry_Wood_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Kerry_Wood_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/kerry_wood_headshot.jpg"
             },
             {
                 name: "Kurt Suzuki",
-                img: "public/images/MLB/Batters/Kurt_Suzuki_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Kurt_Suzuki_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/kurt_suzuki_headshot.jpg"
             },
             {
                 name: "Mark Buehrle",
-                img: "public/images/MLB/Pitchers/Mark_Buehrle_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Mark_Buehrle_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/mark_buehrle_headshot.jpg"
             },
             {
                 name: "Mark Mulder",
-                img: "public/images/MLB/Pitchers/Mark_Mulder_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Mark_Mulder_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/mark_mulder_headshot.jpg"
             },
             {
                 name: "Mark Trumbo",
-                img: "public/images/MLB/Batters/Mark_Trumbo_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Mark_Trumbo_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/mark_trumbo_headshot.jpg"
             },
             {
                 name: "Martin Prado",
-                img: "public/images/MLB/Batters/Martin_Prado_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Martin_Prado_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/martin_prado_headshot.jpg"
             },
             {
                 name: "Masahiro Tanaka",
-                img: "public/images/MLB/Pitchers/Masahiro_Tanaka_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Masahiro_Tanaka_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/masahiro_tanaka_headshot.jpg"
             },
             {
                 name: "Matt Cain",
-                img: "public/images/MLB/Pitchers/Matt_Cain_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Matt_Cain_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/matt_cain_headshot.jpg"
             },
             {
                 name: "Matt Moore",
-                img: "public/images/MLB/Pitchers/Matt_Moore_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Matt_Moore_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/matt_moore_headshot.jpg"
             },
             {
                 name: "Max Kepler",
-                img: "public/images/MLB/Batters/Max_Kepler_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Max_Kepler_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/max_kepler_headshot.jpg"
             },
             {
                 name: "Michael Cuddyer",
-                img: "public/images/MLB/Batters/Michael_Cuddyer_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Michael_Cuddyer_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/michael_cuddyer_headshot.jpg"
             },
             {
                 name: "Miguel Sano",
-                img: "public/images/MLB/Batters/Miguel_Sano_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Miguel_Sano_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/miguel_sano_headshot.jpg"
             },
             {
                 name: "Mike Mussina",
-                img: "public/images/MLB/Pitchers/Mike_Mussina_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Mike_Mussina_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/mike_mussina_headshot.jpg"
             },
             {
                 name: "Neil Walker",
-                img: "public/images/MLB/Batters/Neil_Walker_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Neil_Walker_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/neil_walker_headshot.jpg"
             },
             {
                 name: "Nelson Cruz",
-                img: "public/images/MLB/Batters/Nelson_Cruz_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Nelson_Cruz_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/nelson_cruz_headshot.jpg"
             },
             {
                 name: "Noah Syndergaard",
-                img: "public/images/MLB/Pitchers/Noah_Syndergaard_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Noah_Syndergaard_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/noah_syndergaard_headshot.jpg"
             },
             {
                 name: "Paul Goldschmidt",
-                img: "public/images/MLB/Batters/Paul_Goldschmidt_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Paul_Goldschmidt_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/paul_goldschmidt_headshot.jpg"
             },
             {
                 name: "Pedro Alvarez",
-                img: "public/images/MLB/Batters/Pedro_Alvarez_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Pedro_Alvarez_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/pedro_alvarez_headshot.jpg"
             },
             {
                 name: "Phil Hughes",
-                img: "public/images/MLB/Pitchers/Phil_Hughes_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Phil_Hughes_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/phil_hughes_headshot.jpg"
             },
             {
                 name: "Placido Polanco",
-                img: "public/images/MLB/Batters/Placido_Polanco_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Placido_Polanco_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/placido_polanco_headshot.jpg"
             },
             {
                 name: "Rick Ankiel",
-                img: "public/images/MLB/Batters/Rick_Ankiel_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Rick_Ankiel_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/rick_ankiel_headshot.jpg"
             },
             {
                 name: "Roy Oswalt",
-                img: "public/images/MLB/Pitchers/Roy_Oswalt_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Roy_Oswalt_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/roy_oswalt_headshot.jpg"
             },
             {
                 name: "Russell Martin",
-                img: "public/images/MLB/Batters/Russell_Martin_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Russell_Martin_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/russell_martin_headshot.jpg"
             },
             {
                 name: "Ryan Howard",
-                img: "public/images/MLB/Batters/Ryan_Howard_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Ryan_Howard_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/ryan_howard_headshot.jpg"
             },
             {
                 name: "Scott Kazmir",
-                img: "public/images/MLB/Pitchers/Scott_Kazmir_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Scott_Kazmir_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/scott_kazmir_headshot.jpg"
             },
             {
                 name: "Scott Rolen",
-                img: "public/images/MLB/Batters/Scott_Rolen_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Scott_Rolen_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/scott_rolen_headshot.jpg"
             },
             {
                 name: "Sean Casey",
-                img: "public/images/MLB/Batters/Sean_Casey_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Sean_Casey_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/sean_casey_headshot.jpg"
             },
             {
                 name: "Shin Soo Choo",
-                img: "public/images/MLB/Batters/Shin_Soo_Choo_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Shin_Soo_Choo_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/shin_soo_choo_headshot.jpg"
             },
             {
                 name: "Tim Hudson",
-                img: "public/images/MLB/Pitchers/Tim_Hudson_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Tim_Hudson_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/tim_hudson_headshot.jpg"
             },
             {
                 name: "Tim Wakefield",
-                img: "public/images/MLB/Pitchers/Tim_Wakefield_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Tim_Wakefield_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/tim_wakefield_headshot.jpg"
             },
             {
                 name: "Torii Hunter",
-                img: "public/images/MLB/Batters/Torii_Hunter_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Torii_Hunter_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/torii_hunter_headshot.jpg"
             },
             {
                 name: "Travis Hafner",
-                img: "public/images/MLB/Batters/Travis_Hafner_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Travis_Hafner_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/travis_hafner_headshot.jpg"
             },
             {
                 name: "Troy Glaus",
-                img: "public/images/MLB/Batters/Troy_Glaus_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Troy_Glaus_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/troy_glaus_headshot.jpg"
             },
             {
                 name: "Ubaldo Jimenez",
-                img: "public/images/MLB/Pitchers/Ubaldo_Jimenez_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Ubaldo_Jimenez_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/ubaldo_jimenez_headshot.jpg"
             },
             {
                 name: "Vernon Wells",
-                img: "public/images/MLB/Batters/Vernon_Wells_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Vernon_Wells_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/vernon_wells_headshot.jpg"
             },
             {
                 name: "Victor Martinez",
-                img: "public/images/MLB/Batters/Victor_Martinez_Stats_New.jpeg"
+                img: "public/images/MLB/Batters/stats/Victor_Martinez_Stats_New.jpeg",
+                headshot: "public/images/MLB/Batters/headshots/victor_martinez_headshot.jpg"
             },
             {
                 name: "Victor Zambrano",
-                img: "public/images/MLB/Pitchers/Victor_Zambrano_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Victor_Zambrano_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/victor_zambrano_headshot.jpg"
             },
             {
                 name: "Yovani Gallardo",
-                img: "public/images/MLB/Pitchers/Yovani_Gallardo_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Yovani_Gallardo_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/yovani_gallardo_headshot.jpg"
             },
             {
                 name: "Zack Britton",
-                img: "public/images/MLB/Pitchers/Zack_Britton_Stats.jpeg"
+                img: "public/images/MLB/Pitchers/stats/Zack_Britton_Stats.jpeg",
+                headshot: "public/images/MLB/Pitchers/headshots/zack_britton_headshot.jpg"
             }
         ]
     }

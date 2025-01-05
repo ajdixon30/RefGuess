@@ -25,6 +25,8 @@ let modalContent = document.querySelector("#modal-content")
 let modalButton = document.querySelector("#modal-button")
 let modalText = document.querySelector("#modal-text")
 
+answerForm.setAttribute('class', 'hidden')
+
 //Enable all buttons
 const resetButtons = () => {
     mlb.disabled = false;
@@ -44,6 +46,15 @@ const selectMLB = (e) => {
 //Display the quizzes for the NBA category
 const selectNBA = (e) => {
     createList(e.target);
+}
+
+const openDrawer = () => {
+    quizList.setAttribute('class', 'showList')
+}
+
+const closeDrawer = () => {
+    quizList.setAttribute('class', 'hideList')
+    quizList.innerHTML = ''
 }
 
 const showModal = () => {
@@ -73,7 +84,7 @@ const showSlides = (n) => {
     //Capture the "div" elements containing the player screenshots
     let slides = document.getElementsByClassName("guessPlayer");
     //Capture the "span" elements containing the player names
-    let playerNames = document.getElementsByClassName("playerName");
+    let playerInfos = document.getElementsByClassName("playerInfo");
     //Capture the "span" elements displaying the slide count
     let slideCount = document.querySelector(".slideCount");
     //Capture the slide number "button" elements 
@@ -89,7 +100,7 @@ const showSlides = (n) => {
         slideNumbers[i].setAttribute('id', '');
     }
     //Disable the textbox for the solved players
-    if (playerNames[slideIndex - 1].classList.contains("correct") || giveUp == true) {
+    if (playerInfos[slideIndex - 1].classList.contains("correct") || giveUp == true) {
         answerTextbox.disabled = true;
     } else {
         answerTextbox.disabled = false;
@@ -135,12 +146,13 @@ const iGiveUp = () => {
     player.gameOver = true
     //Capture the "div" elements containing the player screenshots
     let slides = document.querySelectorAll(".guessPlayer");
+    console.log(slides)
     let slideNumbers = document.getElementsByClassName("slideNumber");
     for (let i = 0; i < slides.length; i++){
         //Show the names of the unsolved players in red
         if (!slides[i].lastChild.classList.contains("correct")) {
             slides[i].style = "opacity: 0.5";
-            slides[i].lastChild.setAttribute("class", "playerName incorrect");
+            slides[i].lastChild.setAttribute("class", "playerInfo incorrect");
         }
         if (!slideNumbers[i].classList.contains("correctNumber")) {
             slideNumbers[i].setAttribute('class', 'slideNumber incorrectNumber');
@@ -163,6 +175,7 @@ const createList = (category) => {
     //Create the "list" element to hold the quizzes in each category
     let list = document.createElement("ul");
     list.setAttribute('class', 'list');
+    openDrawer()
     //Create list items based on the selected category
     switch (category.innerText) {
         //Display all MLB Quizzes
@@ -195,6 +208,7 @@ const createList = (category) => {
 
 //Present the quiz selected by the player
 const selectQuiz = (e) => {
+    answerForm.setAttribute('class', '')
     switch (selectedCategory) {
         case "MLB":
             //Capture the name of the selected quiz
@@ -314,20 +328,29 @@ const createTable = (quiz) => {
             imgDiv.setAttribute('id', `${playerToGuess[0].name.toLowerCase().replaceAll(' ', '-')}`);
             //Create the "img" element for player screenshot
             let bbRefImg = document.createElement("img");
+            bbRefImg.setAttribute('class', 'bbRefImg')
             bbRefImg.setAttribute('style', 'width:100%');
             bbRefImg.setAttribute('src', playerToGuess[0].img);
+            //Create "div" element to hold player's name and headshot
+            let playerInfo = document.createElement("div")
+            playerInfo.setAttribute('class', 'playerInfo hidden')
             //Create the "span" element to hold the player's name
-            let playerName = document.createElement("span");
+            let playerName = document.createElement("p");
             playerName.innerText = playerToGuess[0].name;
             //Hide the name from the players
-            playerName.setAttribute('class', 'playerName hidden');
+            playerName.setAttribute('class', 'playerName');
+            //Create "img" element to hold player's headshot
+            let playerHeadshot = document.createElement('img')
+            playerHeadshot.setAttribute('class', 'headshot')
+            playerHeadshot.setAttribute('src', playerToGuess[0].headshot)
             //Create "button" element for slide number
             let slideNumber = document.createElement("button");
             slideNumber.innerText = i + 1;
             slideNumber.setAttribute('class', 'slideNumber');
             slideNumber.onclick = selectSlide;
             slideCounter.appendChild(slideNumber);
-            imgDiv.append(bbRefImg, playerName);
+            playerInfo.append(playerName, playerHeadshot)
+            imgDiv.append(bbRefImg, playerInfo);
             imageCarousel.appendChild(imgDiv);
         }
         //Show the first image to the player
@@ -372,7 +395,7 @@ const validateAnswer = (e) => {
         if (e.target.guess.value.toLowerCase() == playerToGuess.id.replaceAll('-', ' ')) {
             playerToGuess.style = "opacity: 0.5";
             //Show the solved player's name in green
-            playerToGuess.lastChild.setAttribute('class', 'playerName correct');
+            playerToGuess.lastChild.setAttribute('class', 'playerInfo correct');
             currentSlide.setAttribute('class', 'slideNumber correctNumber');
             currentSlide.disabled = true;
             setTimeout(() => nextSlide(), 1500)
@@ -389,7 +412,9 @@ const validateAnswer = (e) => {
     e.target.guess.value = '';
 }
 
-mlb.onclick = selectMLB;
-nba.onclick = selectNBA;
+mlb.addEventListener('click', selectMLB);
+// mlb.addEventListener('mouseout', closeDrawer)
+nba.addEventListener('click', selectNBA);
+// nba.addEventListener('mouseout', closeDrawer)
 answerForm.addEventListener('submit', validateAnswer);
 modalButton.onclick = hideModal
