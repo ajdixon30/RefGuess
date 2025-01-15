@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
-    <title>Quiz Game</title>
+    <title>RefGuess</title>
 </head>
 <body>
-    <div id="container">
+    <header class="header">
+        <div class="container">
+            <h1 class="header_title">RefGuess</h1>
+        </div>
+    </header>
+    <div class="categories">
+        <div class="container">
+            <button id="MLB" class="button">MLB</button>
+            <button id="NBA" class="button">NBA</button>
+        </div>
+    </div>
+    <div class="quiz-list">
+        <div id="quiz-container" class="container"></div>
+    </div>
+    <div class="answer-section">
+        <div class="container">
+            <form id="answer-form">
+                <input type="text" class="textbox" name="guess" placeholder="Guess a Player"/>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="status-section">
+        <div class="container">
+            <span>
+                <button id="prev-btn" class="button"><</button>
+                <p id="slides-status" class="slides-status"></p>
+                <button id="next-btn" class="button">></button>
+            </span>
+            <span id="player-score" class="score"></span>
+            <button id="give-up" class="button button--quit">Give Up</button>
+        </div>
+    </div>
+    <div class="slides-numbers">
+        <div id="numbers-container" class="container"></div>
+    </div>
+    <div class="slides-section">
+        <div id="slides-container" class="container"></div>
+    </div>
+    <div class="modal">
+        <div class="container">
+            <span class="modal-text"></span>
+            <button class="modal-button"></button>
+        </div>
+    </div>
+    <!-- <div id="container">
         <div id="banner">RefGuess</div>
         <div id="categories">
             <button id="MLB">MLB</button>
@@ -36,10 +81,10 @@
                 </div>
             </span>
         </div>
-    </div>
+    </div> -->
 </body>
 <script src="./scripts/nba.js" ></script>
 <script src="./scripts/mlb.js" ></script>
 <script src="./scripts/player.js"></script>
-<script src="./scripts/main.js" ></script>
+<script src="./scripts/new-main.js" ></script>
 </html>

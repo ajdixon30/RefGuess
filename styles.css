@@ -1,6 +1,73 @@
-body{
-    font-family: sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
+}
+
+.header {
+  background:rgb(67, 67, 67);
+  color: white;
+  padding: 1.6rem 0;
+  position:sticky;
+  top: 0%;
+}
+
+.header_title {
+  font-size: 3.2rem;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1.2rem auto;
+  max-width: 70vw;
+}
+
+.slides-status {
+  display: inline;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.button {
+  background: rgb(67, 67, 67);
+  color: white;
+  font-weight: 300;
+  border: none;
+  border-bottom: 2px solid rgb(7,7,7);
+  border-radius: .4rem;
+  padding: .4em;
+  margin: 0 .6rem;
+}
+
+.button:hover {
+  animation: hover 0.3s forwards;
+}
+
+@keyframes hover {
+  0% {
+    background: rgb(67, 67, 67);
+    color: white;
+  }
+
+  100% {
+    background: white;
+    color: rgb(67, 67, 67);
+  }
 }
 
 .ready{
@@ -8,10 +75,6 @@ body{
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-}
-
-#table-section{
-    margin-top: 15px;
 }
 
 #container{
@@ -25,19 +88,24 @@ body{
     margin-bottom: 15px;
 }
 
-#banner{
-  font-size: 2.4rem;
-}
-
 .list{
-    list-style-type: none;
+  font-size: 1.4rem;
+  list-style-type: none;
 }
 
 .list_item{
     text-decoration: underline;
     font-weight: bold;
     cursor: pointer;
-    padding: 5px;
+    padding: 2.5px;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide > img{
+  max-width: 100%;
 }
 
 .name {
@@ -147,6 +215,7 @@ body{
 
   .correctNumber{
     background: rgba(0, 128, 0, 0.6);
+    border-bottom: 2px solid rgba(0, 68, 0, 0.6);
     color: white;
   }
 
@@ -157,13 +226,13 @@ body{
 
   .playerInfo{
     position: absolute;
-    left: 20%;
-    top: 5%;
-    width: 60%;
+    top: 10%;
+    width: 100%;
+    z-index: 2;
   }
 
   .playerName{
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     font-weight: bolder;
   }
   
@@ -176,6 +245,15 @@ body{
     height: auto;
     border: black 2px solid;
     border-radius: 15px;
+    margin: 0 1.4rem;
+  }
+
+  .screenshot{
+    z-index: 1;
+  }
+
+  .complete{
+    opacity: 0.5;
   }
 
   .blurred{
@@ -202,7 +280,6 @@ body{
   }
 
   .score{
-    color:rgb(100, 100, 100);
     padding: 0px 5px;
     font-size: 1.4em;
     font-weight: 600;
@@ -343,24 +420,3 @@ body{
       height: 0px;
     }
   }
-
-  /* @keyframes show{
-    0%{
-      opacity: 0%;
-      top: 100vh;
-    }
-    100%{
-      opacity: 100%;
-      top: 30vh;
-    }
-  }
-  @keyframes hide {
-    0%{
-      opacity: 100%;
-      top: 30vh;
-    }
-    100%{
-      opacity: 0%;
-      top: 100vh;
-    }
-  } */
